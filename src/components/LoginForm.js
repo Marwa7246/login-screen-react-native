@@ -17,7 +17,6 @@ export default class LoginForm extends Component {
           autoCapitalize='none'
           onSubmitEditing={()=>this.passwordInput.focus()}
           autoCorrect={false}
-
           >
         </TextInput>
         <TextInput
@@ -44,7 +43,6 @@ export default class LoginForm extends Component {
 const styles = StyleSheet.create({
   container: {
     padding: 20,
-
   },
 
   input: {
@@ -66,7 +64,4 @@ const styles = StyleSheet.create({
     fontWeight: '700'
 
   }
-
-
-
 });
